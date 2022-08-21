@@ -22,7 +22,7 @@ variable "adb-workspace-url" {
 }
 variable "adb-workspace-id" {
   description = "Azure Databricks Workspace ID"
-  default     = "8018907867659718"
+  default     = "/subscriptions/fa6b09d8-2223-4dc0-a49d-7291e6df9ac7/resourceGroups/data-product/providers/Microsoft.Databricks/workspaces/adb-dataproduct-ws"
 }
 
 
