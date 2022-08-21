@@ -33,7 +33,8 @@ variable "policy_id" {
 
 variable "spark_version" {
   description = "The Spark version to use for the cluster"
-  default     = "3.0.0"
+  default     = null
+
 }
 
 variable "node_type_id" {

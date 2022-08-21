@@ -1,6 +1,6 @@
-policy_id    = null
-node_type_id = "smallest"
-/*spark_version	= 3
+policy_id = null
+/*node_type_id = "smallest"
+park_version	= 3
 
 driver_node_type_id	=
 num_workers	=
