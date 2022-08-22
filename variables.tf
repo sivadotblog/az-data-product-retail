@@ -50,7 +50,7 @@ variable "driver_node_type_id" {
 
 variable "num_workers" {
   description = "The number of workers to use for the cluster"
-  default     = "1"
+  default     = "0"
 
 }
 
