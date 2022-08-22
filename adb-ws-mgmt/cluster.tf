@@ -22,4 +22,13 @@ resource "databricks_cluster" "shared_autoscaling" {
     }
 
   }
+  spark_conf = {
+    # Single-node
+    "spark.databricks.cluster.profile" : "singleNode"
+    "spark.master" : "local[*]"
+  }
+
+  custom_tags = {
+    "ResourceClass" = "SingleNode"
+  }
 }
